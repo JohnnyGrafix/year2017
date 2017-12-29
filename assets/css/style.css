@@ -1,3 +1,51 @@
-p {
-	color: green;
+.container {
+  min-width: 324px;
+  }
+
+ .penguins {
+	 width: 100%;
+	 display: flex;
+	 justify-content: space-around;
+	 flex-wrap: wrap;
+	 padding: 0px;
+	 margin: 0px;
+ }
+.buttonRow {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+	justify-content: space-around;
+	margin: 0px;
+}
+button {
+	width: 31%;
+	padding: 0px;
+	margin: 5px;
+	border: 1px solid red;
+	
+}
+.image {
+	margin: 0px;
+	width: 100%;
+}
+.modal-content {
+	padding: 3%;
+}
+ .modal-body {
+	display: flex;
+    width: 100%;
+ }
+ .modal-body img {
+	 width: 100%;
+ }
+ 
+@media only screen and (max-width: 450px) {
+	button {
+		width: 45%;
+	}
+}
+@media only screen and (min-width: 775px) {
+	button {
+		width: 23%;
+	}
 }
