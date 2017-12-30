@@ -32,11 +32,15 @@ button {
 	padding: 3%;
 }
  .modal-body {
-	display: flex;
     width: 100%;
  }
  .modal-body img {
 	 width: 100%;
+ }
+ .modalpic {
+	 position: relative;
+	 width: 100%;
+	 height: auto;
  }
  
 @media only screen and (max-width: 450px) {
